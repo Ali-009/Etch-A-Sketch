@@ -1,6 +1,24 @@
 
 #container{
+
+  width: 400px;
+  height: 400px;
+
   display: grid;
-  grid-template-columns: repeat(16, 5vh);
-  grid-template-rows: repeat(16, 5vh);
+}
+
+#container > div:hover{
+  background-color: black;
+}
+
+#wrapper{
+
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+
 }
