@@ -5,9 +5,11 @@
   height: 400px;
 
   display: grid;
+
+  border: thin solid black;
 }
 
-#container > div:hover{
+.trial{
   background-color: black;
 }
 
